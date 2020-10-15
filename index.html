@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Code Quiz</title>
+  <!-- Section to load the required Bootstrap tags and CSS -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+ 
+  <!-- Section for Navigation bar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <section class="navbar-toggler-icon"></section>
+  </button>
+    <section class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="nav-item">
+          <a class="nav-link" href="#" onclick="highScores()">View Highscores</a>
+        </li>
+      </ul>
+    </section>
+    <h6 class="documentClock"></h6>
+  </nav>
+ 
+<!-- Section for main page elements -->
+  <main class="container p-3 border-light color-white">
+    <section class="row">
+      <section class="col-md-12">
+        <header class="page-header">
+          <h2><strong>Coding Quiz Challenge</strong></h2>
+        </header>
+      </section>  
+    </section>
+    <section class="row" id="pw-output">
+        <section class="col-md-12 text-center" id="pw-output">
+            <hr>
+            <br>
+            <p class="introLanguage">Try to answer the following code-related questions within the time limit. Keep in mind that incorrect answers will penalize your score/time by ten seconds!</p>
+            <p class="displayQuestions"></p>
+            <ul class="choicesUl"></ul>
+            <p class="currentTime"></p>
+            <br>
+            <hr>        
+        </section>
+    </section>  
+    <section class="row">
+      <section class="col-md-12 text-center">
+        <button id="startQuiz" type="button" class="btn btn-primary" role="button" >Start Quiz</button>
+      </section>
+      <p class="highScores"></p>
+    </section>
+  </main>
+ 
+
+
+
+  <script src="./assets/js/script.js"></script>
+
+  <footer class="footer" id="sticky-footer">
+    <div class="text-center">
+      <small class="text-muted">&copy; 2020 All Rights Reserved</small>
+    </div>
+  </footer>
+    
+      <!-- Section to load the required Bootstrap scripts -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    
+</body>
+    
+</html>   
