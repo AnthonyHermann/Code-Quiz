@@ -1,0 +1,53 @@
+body {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-color: #eee;
+  border-radius: 85%;
+}
+
+main {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-color: #fff;
+  margin: 40px auto;
+  padding: 40px auto;
+  box-shadow: 1px -1px 10px 1px #bbb;
+}
+
+h2 { 
+  word-break: normal;
+  text-align: center;
+}
+
+p { 
+  word-break: normal;
+  text-align: center;
+}
+
+.pw-output {
+  outline-width: 10px;
+  outline-style: dashed;
+  outline-color: red;
+}
+
+.button {
+  border: none;
+  border-radius: 50%;
+  background-color: #purple;
+  color: white;
+}
+
+.restartQuiz {
+  display: none;
+}
+#sticky-footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
